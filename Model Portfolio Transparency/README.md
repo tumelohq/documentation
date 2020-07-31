@@ -45,7 +45,7 @@ The output of this step will provide the organizations in which the Model Portfo
 
 ## Sequence Diagram
 
-![mp_org_breakdown_seq.svg](https://files.nuclino.com/files/68dd59a3-7792-44ef-a2fc-49f317a07d0d/mp_org_breakdown_seq.svg)
+![mp_org_breakdown_seq.svg](./sequence.svg)
 
 # Code Example
 
@@ -154,5 +154,3 @@ curl --location --request \
     "readTime": "2020-07-23T09:45:35.311128394Z"
 }
 ```
-
-# 
