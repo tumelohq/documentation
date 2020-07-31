@@ -2,13 +2,13 @@
 
 ## Overview
 
-This guide explains how to obtain an organization breakdown of a model portfolio in order to provide detailed information about all the companies invested in either directly or indirectly. For an overview of organization breakdowns, see the* What is Transparency* guide.
+This guide explains how to obtain an organization breakdown of a model portfolio in order to provide detailed information about all the companies invested in either directly or indirectly. For an overview of organization breakdowns, see the [What is Transparency](../What_is_Transparency/README.md) guide.
 
 The model portfolio's organization breakdown allows you to know exactly how the investments are distributed across many companies, and also provides useful information about each organization. 
 
 ## Pre-requisites
 
-* Must have signed up with tumelo and obtained the credentials for your service user account (see Getting Started for further details)
+* Must have signed up with tumelo and obtained the credentials for your service user account (see [Getting Started](../Getting_Started/README.md) for further details)
 * Your habitat must include one or more model portfolios. The section below explains how to find out which model portfolios are available in your habitat and how to update them
 
 ### Model Portfolios
@@ -17,7 +17,7 @@ We've built an easy way to get the organisation breakdown of a group of instrume
 
 In order to have a Model Portfolio set up, please contact [support@tumelo.com](mailto:support@tumelo.com) with a spreadsheet containing the ISINs and their respective % weightings within the Model Portfolio. Model Portfolios can be created in the Tumelo platform with both `title` and `externalId` properties set by you to allow you to identify each Model Portfolio individually. 
 
-Once set up, you can see if they are supported by[ listing them](https://docs.tumelo.com/#operation/listModelPortfolios). Once supported, you can get the [organisation breakdown of a Model Portfolio.](https://docs.tumelo.com/#operation/getOrganizationBreakdownByModelPortfolio)
+Once set up, you can see if they are supported by [listing them](https://docs.tumelo.com/#operation/listModelPortfolios). Once supported, you can get the [organisation breakdown of a Model Portfolio.](https://docs.tumelo.com/#operation/getOrganizationBreakdownByModelPortfolio)
 
 ## Tumelo API Request Flow
 
