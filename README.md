@@ -1,4 +1,4 @@
-# Tumelo Platform API Dcumentation
+# Tumelo Platform API Documentation
 
 Tumelo's mission is to enable retail investors and pension members to create and benefit from a more sustainable investment system. 
 
