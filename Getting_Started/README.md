@@ -25,7 +25,7 @@ Request access to the Tumelo platform by emailing [support@tumelo.com](mailto:su
 * Your company name
 * A technical contact email address
 * A technical contact phone number
-* A list of the instruments that make up the top-level holdings of your end-user investors, identified by their ISIN. This is your list of **subscribed instruments**. You do not need to worry about including instruments that are held by the top-level instruments. That's where Tumelo helps out. You just give us the starting funds, and we do all the hard work of working out what's in them for you and your users.
+* A list of the instruments that make up the top-level holdings of your end-user investors, identified by their ISIN. This is your list of **subscribed instruments**. You only need to include top-level instruments. You do not need to include instruments held by the top-level intruments. That's where Tumelo helps out. You just give us the starting funds, and we do all the hard work of working out what's in them for you and your users.
 
 We will provide you with the following information relating to your newly created API user account:
 
@@ -37,7 +37,7 @@ We will provide you with the following information relating to your newly create
 
 ### Step 2 - Changing Password
 
-The first time you access the API, the temporary password must be changed for a strong password set by you. A detailed explanation of this one-time process is given [Authentication](../Authentication/README.md) guide.
+The first time you access the API, the temporary password we have assigned must be changed for a strong password set by you. A detailed explanation of this one-time process can be found in the [Authentication](../Authentication/README.md) guide.
 
 Now you have set a strong password on your API user account you're ready to start making API requests!
 
