@@ -14,9 +14,9 @@ By presenting an organisation breakdown to the end investor, they have an easy t
 
 ## Transparency of a specific fund
 
-The Tumelo API makes it easy to get the organization breakdown of any individual fund your company has subscribed to for the purposes of transparency. See the* Getting Started *guide for further information on **subscribed instruments. **If you require the organization breakdown of a fund your company is not already subscribed to, it is easy to add it by contacting [support@tumelo.com](mailto:support@tumelo.com).
+The Tumelo API makes it easy to get the organization breakdown of any individual fund your company has subscribed to for the purposes of transparency. See the [Getting Started](../Getting_Started/README.md) guide for further information on *subscribed instruments*. If you require the organization breakdown of a fund your company is not already subscribed to, it is easy to add it by contacting [support@tumelo.com](mailto:support@tumelo.com).
 
-For further details of how to obtain an organization breakdown on an investment fund using the Tumelo API, please see the* Instrument Transparency *guide.
+For further details of how to obtain an organization breakdown on an investment fund using the Tumelo API, please see the [Instrument Transparency](../Instrument_Transparency/README.md) guide.
 
 ## Transparency of an investor account
 
@@ -24,4 +24,4 @@ We have described how the Tumelo Platform API gives transparency to individual i
 
 ## Transparency of a model portfolio
 
-In the situation where the same portfolio structure is shared by multiple investors, it is possible to set up one more model portfolios for your habitat. The Tumelo API supports providing transparency of a model portfolio through a model portfolio organization breakdown. See the *Model Portfolio Transparency *guide for further details.
+In the situation where the same portfolio structure is shared by multiple investors, it is possible to set up one more model portfolios for your habitat. The Tumelo API supports providing transparency of a model portfolio through a model portfolio organization breakdown. See the [Model Portfolio Transparency](../Model_Portfolio_Transparency/README.md) guide for further details.
