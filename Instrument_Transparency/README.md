@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide explains how to obtain an organization breakdown of a fund or other *composite instrument* in order to provide detailed information about all the companies invested in either directly or indirectly through that instrument. For an overview of organization breakdowns, see the What is Transparency guide.
+This guide explains how to obtain an organization breakdown of a fund or other *composite instrument* in order to provide detailed information about all the companies invested in either directly or indirectly through that instrument. For an overview of organization breakdowns, see the [What is Transparency](../What_is_Transparency/README.md) guide.
 
 The composite instrument's organization breakdown allows you to know exactly how the instrument's own investments are distributed across many companies. The breakdown also provides useful information about each organization such as its name, logo and short bio.
 
@@ -10,7 +10,7 @@ In order to get an organization breakdown on a specific composite instrument you
 
 ## Pre-requisites
 
-* Must have signed up with tumelo and obtained the credentials for your service user account (see Getting Started for further details)
+* Must have signed up with tumelo and obtained the credentials for your service user account (see [Getting Started](../Getting_Started/README.md) for further details)
 * You habitat must be subscribed to one or more composite instruments
 
 ## Definitions

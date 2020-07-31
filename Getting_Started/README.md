@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide explains how to get access to the Tumelo Platform API and to how start using the API to give investors a deeper understanding of which companies they are ultimately invested in through their pension or other investment product. We refer to this as giving users *transparency *over their investments*. *For a further explanation of what we mean by transparency, please see the* What is Transparency *guide.
+This guide explains how to get access to the Tumelo Platform API and to how start using the API to give investors a deeper understanding of which companies they are ultimately invested in through their pension or other investment product. We refer to this as giving users *transparency* over their investments. For a further explanation of what we mean by transparency, please see the [What is Transparency](../What_is_Transparency.README.md) guide.
 
 ## Pre-requisites
 
