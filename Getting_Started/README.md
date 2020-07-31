@@ -39,7 +39,7 @@ We will provide you with the following information relating to your newly create
 
 ### Step 2
 
-The first time you access the API, the temporary password must be changed for a strong password set by you. A detailed explanation of this one-time process is given in the API reference guide [First time sign up](https://docs.tumelo.com/#section/Access/Authentication).
+The first time you access the API, the temporary password must be changed for a strong password set by you. A detailed explanation of this one-time process is given [Authentication](../Authentication/README.md) guide.
 
 Now you have set a strong password on your API user account you're ready to start making API requests!
 
