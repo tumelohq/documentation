@@ -18,7 +18,7 @@ This guide explains how to get access to the Tumelo Platform API and to how star
 
 ## Process Flow
 
-### Step 1a
+### Step 1 - Requesting Access
 
 Request access to the Tumelo platform by emailing [support@tumelo.com](mailto:support@tumelo.com). In order to set up your access, we will require some basic information including:
 
@@ -26,8 +26,6 @@ Request access to the Tumelo platform by emailing [support@tumelo.com](mailto:su
 * A technical contact email address
 * A technical contact phone number
 * A list of the instruments that make up the top-level holdings of your end-user investors, identified by their ISIN. This is your list of **subscribed instruments**. You do not need to worry about including instruments that are held by the top-level instruments. That's where Tumelo helps out. You just give us the starting funds, and we do all the hard work of working out what's in them for you and your users.
-
-### Step 1b
 
 We will provide you with the following information relating to your newly created API user account:
 
@@ -37,13 +35,13 @@ We will provide you with the following information relating to your newly create
 * Authentication provider details
 * Your habitat will include a selection of common instruments suitable for your initial development activities. We will inform you when the list of instruments you requested are also available for use in your test habitat.
 
-### Step 2
+### Step 2 - Changing Password
 
 The first time you access the API, the temporary password must be changed for a strong password set by you. A detailed explanation of this one-time process is given in the API reference guide [First time sign up](https://docs.tumelo.com/#section/Access/Authentication).
 
 Now you have set a strong password on your API user account you're ready to start making API requests!
 
-### Step 3
+### Step 3 - Using the API
 
 Use the credentials supplied by Tumelo in conjunction with the strong password you set in Step 2 in order to obtain an authorisation token for subsequent requests.
 

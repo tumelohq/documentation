@@ -21,11 +21,11 @@ Once set up, you can see if they are supported by [listing them](https://docs.tu
 
 ## Tumelo API Request Flow
 
-### Step 1
+### Step 1 - Authenticate
 
 Authenticate with the tumelo system
 
-### Step 2
+### Step 2 - List Model Portfolios
 
 List the Model Portfolios stored in Tumelo.
 
@@ -34,7 +34,7 @@ This is to extract the internal Tumelo identifiers for each Model Portfolio.  Th
 | Tumelo API Documentation Link | [List model portfolios](https://docs.tumelo.com/#operation/listModelPortfolios) |
 |-------------------------------|---------------------------------------------------------------------------------|
 
-### Step 3
+### Step 3 - Get Organization Breakdown
 
 Get the organization breakdown for a Model Portfolio.
 
