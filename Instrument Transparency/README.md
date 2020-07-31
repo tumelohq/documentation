@@ -43,7 +43,7 @@ The output of this step will provide the organizations in which the composite in
 
 # Sequence Diagram
 
-![org-breakdown-instrument-seq.svg](https://files.nuclino.com/files/64eae1cd-cf38-4a67-8215-a6cccf3ad422/org-breakdown-instrument-seq.svg)
+![org-breakdown-instrument-seq.svg](./sequence.svg)
 
 # Code Example
 

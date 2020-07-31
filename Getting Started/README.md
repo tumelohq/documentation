@@ -49,4 +49,4 @@ The API user credentials we supply provide access to all the data within your sp
 
 # Sequence Diagram
 
-![Untitled.svg](https://files.nuclino.com/files/75a1395f-f927-4004-9b2d-4d5f0aa4124b/Untitled.svg)
+![sequence.svg](./sequence)
