@@ -23,18 +23,18 @@ When you set up access to Tumelo's API, you tell us which funds you would like t
 
 ## API Request Flow
 
-### Step 1
+### Step 1 - Authenticate
 
 Authenticate with the tumelo system
 
-### Step 2
+### Step 2 - Listing subscribed instruments
 
 List the instruments in your habitat that are available for requesting an organization breakdown on. This is to find the ISINs of the instruments in your subscribed instrument list and to check which of your subscribed instruments are composite. 
 
 | Tumelo API Documentation Link | [List subscribed instruments](https://docs.tumelo.com/#section/Subscribed-Instruments) |
 |-------------------------------|----------------------------------------------------------------------------------------|
 
-### Step 3
+### Step 3 - Get Breakdown
 
 Get the organization breakdown for a composite instrument.
 
