@@ -1,3 +1,5 @@
+# What is Transparency
+
 Investment products such as pensions and stocks and shares ISAs can be quite complicated, and it is often difficult for an investor to get a clear picture of which companies their money is actually invested in. For example, a typical pension fund will include a large number of investments. Often those investments are themselves shares in other investment funds that are managed by specialist fund managers, for example with a particular interest in environment-friendly investments. These specialist funds may themselves include hundreds of individual investments, including holdings in other funds and so on. This is a normal investment practice and is done with the aim of achieving the goals of a specific investment product. 
 
 If you dig down far enough through the layers of funds, ultimately the majority of equity-based investment products hold shares in individual companies that are listed on the global stock market. Sometimes they also hold some bonds and some cash too, depending on the fund.

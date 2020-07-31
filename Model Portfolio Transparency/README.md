@@ -1,15 +1,17 @@
-# Overview
+# Model Portfolio Transparency
+
+## Overview
 
 This guide explains how to obtain an organization breakdown of a model portfolio in order to provide detailed information about all the companies invested in either directly or indirectly. For an overview of organization breakdowns, see the* What is Transparency* guide.
 
 The model portfolio's organization breakdown allows you to know exactly how the investments are distributed across many companies, and also provides useful information about each organization. 
 
-# Pre-requisites
+## Pre-requisites
 
 * Must have signed up with tumelo and obtained the credentials for your service user account (see Getting Started for further details)
 * Your habitat must include one or more model portfolios. The section below explains how to find out which model portfolios are available in your habitat and how to update them
 
-## Model Portfolios
+### Model Portfolios
 
 We've built an easy way to get the organisation breakdown of a group of instruments, which we call a Model Portfolio. Model portfolios are useful when a number of investors have portfolios that are all structured in the same way. Rather than having to create individual investor account compositions for each one, a model portfolio can be used.
 
@@ -17,13 +19,13 @@ In order to have a Model Portfolio set up, please contact [support@tumelo.com](m
 
 Once set up, you can see if they are supported by[ listing them](https://docs.tumelo.com/#operation/listModelPortfolios). Once supported, you can get the [organisation breakdown of a Model Portfolio.](https://docs.tumelo.com/#operation/getOrganizationBreakdownByModelPortfolio)
 
-# Tumelo API Request Flow
+## Tumelo API Request Flow
 
-## Step 1
+### Step 1
 
 Authenticate with the tumelo system
 
-## Step 2
+### Step 2
 
 List the Model Portfolios stored in Tumelo.
 
@@ -32,7 +34,7 @@ This is to extract the internal Tumelo identifiers for each Model Portfolio.  Th
 | Tumelo API Documentation Link | [List model portfolios](https://docs.tumelo.com/#operation/listModelPortfolios) |
 |-------------------------------|---------------------------------------------------------------------------------|
 
-## Step 3
+### Step 3
 
 Get the organization breakdown for a Model Portfolio.
 
@@ -43,15 +45,15 @@ The output of this step will provide the organizations in which the Model Portfo
 | Tumelo API Documentation Link | [Get organization breakdown for a model portfolio](https://docs.tumelo.com/#operation/getOrganizationBreakdownByModelPortfolio) |
 |-------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 
-## Sequence Diagram
+### Sequence Diagram
 
 ![mp_org_breakdown_seq.svg](./sequence.svg)
 
-# Code Example
+## Code Example
 
 In the following example, we assume you have completed the steps in the Getting Started guide to change your API User's temporary password. The example illustrates how to obtain an ID token from AWS Cognito using their HTTP API in order to provide the authentication credentials required by the Tumelo API, however in practice we recommend the use of one of the Cognito client libraries which make obtaining and refreshing tokens straightforward. For further details see the [Authentication](https://docs.tumelo.com/#section/Access/Authentication) section of Tumelo's API documentation.
 
-### cURL
+#### cURL
 
 Getting the ID token (step 1). This is normally done automatically through a suitable Cognito client library.
 
@@ -91,7 +93,7 @@ curl --location --request \
 	--header 'Authorization: Bearer '$ID_TOKEN
 ```
 
-# Example Response
+## Example Response
 
 ```json
 {

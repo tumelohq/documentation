@@ -1,4 +1,6 @@
-# Overview
+# Instrument Transparency
+
+## Overview
 
 This guide explains how to obtain an organization breakdown of a fund or other *composite instrument* in order to provide detailed information about all the companies invested in either directly or indirectly through that instrument. For an overview of organization breakdowns, see the What is Transparency guide.
 
@@ -6,33 +8,33 @@ The composite instrument's organization breakdown allows you to know exactly how
 
 In order to get an organization breakdown on a specific composite instrument your company must have included the instrument in your subscribed instruments list. To update subscribed instruments, get in touch with us at [support@tumelo.com](mailto:support@tumelo.com).
 
-# Pre-requisites
+## Pre-requisites
 
 * Must have signed up with tumelo and obtained the credentials for your service user account (see Getting Started for further details)
 * You habitat must be subscribed to one or more composite instruments
 
-# Definitions
+## Definitions
 
 * **Composite instrument**: A composite instrument will be invested into other instruments, such as shares, bonds or even other composite instruments. There are many types of composite instruments (mutual, OEIC, ETFs…) but all have this basic structure.
 
-## Subscribed instruments
+### Subscribed instruments
 
 When you set up access to Tumelo's API, you tell us which funds you would like to be able to get organization breakdowns for (see Getting Started). We refer to these as your [Subscribed Instruments](https://docs.tumelo.com/#section/Subscribed-Instruments). You may request an organization breakdown on any composite instrument that appears in your subscribed instrument list.
 
-# API Request Flow
+## API Request Flow
 
-## Step 1
+### Step 1
 
 Authenticate with the tumelo system
 
-## Step 2
+### Step 2
 
 List the instruments in your habitat that are available for requesting an organization breakdown on. This is to find the ISINs of the instruments in your subscribed instrument list and to check which of your subscribed instruments are composite. 
 
 | Tumelo API Documentation Link | [List subscribed instruments](https://docs.tumelo.com/#section/Subscribed-Instruments) |
 |-------------------------------|----------------------------------------------------------------------------------------|
 
-## Step 3
+### Step 3
 
 Get the organization breakdown for a composite instrument.
 
@@ -41,15 +43,15 @@ The output of this step will provide the organizations in which the composite in
 | Tumelo API Documentation Link | [Get organization breakdown for a composite instrument](https://docs.tumelo.com/#operation/getOrganizationBreakdownByIsinInHabitat) |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 
-# Sequence Diagram
+## Sequence Diagram
 
 ![org-breakdown-instrument-seq.svg](./sequence.svg)
 
-# Code Example
+## Code Example
 
 In the following example, we assume you have completed the steps in the Getting Started guide to change your API User's temporary password. The example illustrates how to obtain an ID token from AWS Cognito using their HTTP API in order to provide the authentication credentials required by the Tumelo API, however in practice we recommend the use of one of the Cognito client libraries which make obtaining and refreshing tokens straightforward. For further details see the [Authentication](https://docs.tumelo.com/#section/Access/Authentication) section of Tumelo's API documentation.
 
-### cURL
+#### cURL
 
 Getting the ID token (step 1). This is normally done automatically through a suitable Cognito client library.
 
@@ -92,7 +94,7 @@ curl --location --request \
     --header 'Authorization: Bearer '$ID_TOKEN
 ```
 
-# Example Breakdown Response
+## Example Breakdown Response
 
 ```json
 {
