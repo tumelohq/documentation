@@ -4,9 +4,9 @@
 
 This guide explains how to obtain an organization breakdown of a fund or other *composite instrument* in order to provide detailed information about all the companies invested in either directly or indirectly through that instrument. For an overview of organization breakdowns, see the [What is Transparency](../What_is_Transparency/README.md) guide.
 
-The composite instrument's organization breakdown allows you to know exactly how the instrument's own investments are distributed across many companies. The breakdown also provides useful information about each organization such as its name, logo and short bio.
+The composite instrument's organization breakdown allows you to know exactly how the instrument's own investments are distributed across many companies. The breakdown also provides useful information about each organization such as its name, logo and a short bio.
 
-In order to get an organization breakdown on a specific composite instrument your company must have included the instrument in your subscribed instruments list. To update subscribed instruments, get in touch with us at [support@tumelo.com](mailto:support@tumelo.com).
+In order to get an organization breakdown on a specific composite instrument, your company must have included the instrument in your subscribed instruments list. To update subscribed instruments, get in touch with us at [support@tumelo.com](mailto:support@tumelo.com).
 
 ## Pre-requisites
 
@@ -49,7 +49,7 @@ The output of this step will provide the organizations in which the composite in
 
 ## Code Example
 
-In the following example, we assume you have completed the steps in the Getting Started guide to change your API User's temporary password. The example illustrates how to obtain an ID token from AWS Cognito using their HTTP API in order to provide the authentication credentials required by the Tumelo API, however in practice we recommend the use of one of the Cognito client libraries which make obtaining and refreshing tokens straightforward. For further details see the [Authentication](../Authentication/README.md) guide.
+In the following example, we assume you have completed the steps in the [Getting Started](../Getting_Started/README.md) guide to change your API User's temporary password. The example illustrates how to obtain an ID token from AWS Cognito using their HTTP API in order to provide the authentication credentials required by the Tumelo API, however in practice we recommend the use of one of the Cognito client libraries which make obtaining and refreshing tokens straightforward. For further details see the [Authentication](../Authentication/README.md) guide.
 
 #### cURL
 
