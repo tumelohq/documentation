@@ -11,7 +11,7 @@ In order to get an organization breakdown on a specific composite instrument, yo
 ## Pre-requisites
 
 * Must have signed up with tumelo and obtained the credentials for your service user account (see [Getting Started](../Getting_Started/README.md) for further details)
-* You habitat must be subscribed to one or more composite instruments
+* Your habitat must be subscribed to one or more composite instruments
 
 ## Definitions
 
