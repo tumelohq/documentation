@@ -43,7 +43,7 @@ Step 4 describes how to create an account composition record.
 
 ### Step 1 - Authenticate
 
-Authenticate with the tumelo system
+Authenticate with the Tumelo API
 
 ### Step 2 - Create an Investor
 
