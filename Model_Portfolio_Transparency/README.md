@@ -81,7 +81,7 @@ Listing the model portfolios (step 2). In this example, the ID of the first mode
 export HABITAT_ID={your habitat here}
 
 MODEL_PORTFOLIO_ID=$(curl --location --request \
-	GET 'https://api.dev.tumelo.com/v1/habitats/'$HABITAT_ID'/modelPortfolios' \
+	GET 'https://api.prod.tumelo.com/v1/habitats/'$HABITAT_ID'/modelPortfolios' \
 	--header 'Authorization: Bearer '$ID_TOKEN | jq -r '.modelPortfolios[0].id' )
 ```
 
@@ -89,7 +89,7 @@ Getting the organization breakdown (step 3).
 
 ```shell
 curl --location --request \
-	GET 'https://api.dev.tumelo.com/v1/habitats/'$HABITAT_ID'/modelPortfolios/'$MODEL_PORTFOLIO_ID'/organizationBreakdown' \
+	GET 'https://api.prod.tumelo.com/v1/habitats/'$HABITAT_ID'/modelPortfolios/'$MODEL_PORTFOLIO_ID'/organizationBreakdown' \
 	--header 'Authorization: Bearer '$ID_TOKEN
 ```
 
