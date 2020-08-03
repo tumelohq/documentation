@@ -12,7 +12,7 @@ If many of your investors share the same portfolio structure, you may find it ea
 
 ## Pre-requisites
 
-* You must have signed up with tumelo and obtained the credentials for your API service user account (see [Getting Started](../Getting_Started/README.md) for further details)
+* You must have signed up with Tumelo and obtained the credentials for your API service user account (see [Getting Started](../Getting_Started/README.md) for further details)
 * Your habitat must be subscribed to one or more instruments. These are the top-level instruments that your investors may hold directly through an account. Often top-level instruments are composite (i.e. are made of of other investment instruments themselves), but investor accounts may also directly hold regular shares and cash. For further information on composite instruments, please see the [Instrument Transparency](../Instrument_Transparency/README.md) guide.
 
 ## Investors
