@@ -20,7 +20,7 @@ For further details of how to obtain an organization breakdown on an investment 
 
 ## Transparency of an investor account
 
-We have described how the Tumelo Platform API gives transparency to individual investment instruments, however, most investors have a pension or other investment product that contains many funds, and sometimes individual shares and cash as well. In order to make it easy to give a consolidated view of the companies held within an investor's account, see the *Investor Account Transparency* guide.
+We have described how the Tumelo Platform API gives transparency to individual investment instruments, however, most investors have a pension or other investment product that contains many funds, and sometimes individual shares and cash as well. In order to make it easy to give a consolidated view of the companies held within an investor's account, see the [Investor Account Transparency](../Investor_Account_Transparency/README.md) guide.
 
 ## Transparency of a model portfolio
 
