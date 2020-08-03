@@ -21,7 +21,7 @@ An investor entity in tumelo represents one of your end-user investors. Many of 
 
 The **investor** entity in Tumelo is very lightweight, consisting as a minimum of just a unique identifier that is used within Tumelo to represent the investor. Personal information about the investor is not required in order to create an investor entity.
 
-In order to make it easier for you to maintain a mapping between tumelo's identifier and your own identifier for the investor, an 'external identifier' may also be associated with the tumelo investor record when creating the investor.
+In order to make it easier for you to maintain a mapping between Tumelo's identifier and your own identifier for the investor, an 'external identifier' may also be associated with the Tumelo investor record when creating the investor.
 
 Step 2 describes how to create an investor.
 
