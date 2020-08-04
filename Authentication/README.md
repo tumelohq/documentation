@@ -19,9 +19,9 @@ For details of how to use the Cognito API itself, please refer to the [Cognito I
 
 Upon successful authentication, Cognito actually issues three different tokens:
 
-    * AccessToken
-    * IdToken
-    * RefreshToken
+* AccessToken
+* IdToken
+* RefreshToken
 
 The use of each of the tokens is described in detail in the Cognito documentation, however it is the IdToken that is required to access the Tumelo API. The IdToken is an industry-standard [JSON Web Token (JWT)](https://jwt.io) that contains the information necessary for Tumelo to validate the token and provide access to the API. The contents and claims within the JWTs are an implementation detail and are subject to change without notice.
 
@@ -76,7 +76,7 @@ curl -X POST --data @temp-auth.json \
 ```
 If you have not already reset your temporary password, you should see a challenge response similar to the following:
 
-```bash
+```json
 {
     "ChallengeName": "NEW_PASSWORD_REQUIRED",
     "ChallengeParameters": {
@@ -101,7 +101,7 @@ curl -X POST --data @challenge-response.json \
 
 6. You should see a response similar to that below, indicating that your password has been reset to the one you provided, and that you have been successfully authenticated.
 
-```bash
+```json
 {
     "AuthenticationResult": {
         "AccessToken": "ACCESS_TOKEN_VALUE",
@@ -119,7 +119,7 @@ Once you have reset your temporary password, subsequent authentication requests 
 
 1. Create a JSON text file called `tumelo-api-auth.json` with the following contents on your local machine, substituting `<YOUR_USERNAME>` and `<CLIENT_ID>` with the values you have been supplied. You should use the new strong password that you set in the steps above in place of `<YOUR_PASSWORD>`. This file should __NOT__ be committed to any source control repository, and should only be used for initial experimentation with the Tumelo API.:
 
-```
+```json
 {
     "AuthParameters" : {
         "USERNAME" : "<YOUR_USERNAME>",
