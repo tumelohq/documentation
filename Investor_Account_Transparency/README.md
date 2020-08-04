@@ -17,7 +17,7 @@ If many of your investors share the same portfolio structure, you may find it ea
 
 ## Investors
 
-An investor entity in tumelo represents one of your end-user investors. Many of the features offered by tumelo are highly personalised to the end-user, for example providing a detailed breakdown of a specific investor's holdings or offering voting based on the holdings of a specific investor.
+An investor entity in Tumelo represents one of your end-user investors. Many of the features offered by Tumelo are highly personalised to the end-user, for example providing a detailed breakdown of a specific investor's holdings or offering voting based on the holdings of a specific investor.
 
 The **investor** entity in Tumelo is very lightweight, consisting as a minimum of just a unique identifier that is used within Tumelo to represent the investor. Personal information about the investor is not required in order to create an investor entity.
 
@@ -125,7 +125,7 @@ curl --location --request \
     }'
 ```
 
-The above request will return a response that includes the tumelo `id` of the newly created investor resource, similar to the following:
+The above request will return a response that includes the Tumelo `id` of the newly created investor resource, similar to the following:
 
 ```json
 {
@@ -150,7 +150,7 @@ curl --location --request POST 'https://api.prod.tumelo.com/v1/habitats/'$HABITA
 }'
 ```
 
-The above request will return a response that includes the tumelo `id` of the newly created investor account resource, similar to the following:
+The above request will return a response that includes the Tumelo `id` of the newly created investor account resource, similar to the following:
 
 ```json
 {

@@ -8,7 +8,7 @@ The model portfolio's organization breakdown allows you to know exactly how the 
 
 ## Pre-requisites
 
-* Must have signed up with tumelo and obtained the credentials for your service user account (see [Getting Started](../Getting_Started/README.md) for further details)
+* Must have signed up with Tumelo and obtained the credentials for your service user account (see [Getting Started](../Getting_Started/README.md) for further details)
 * Your habitat must include one or more model portfolios. The section below explains how to find out which model portfolios are available in your habitat and how to update them
 
 ### Model Portfolios
@@ -23,7 +23,7 @@ Once set up, you can see if they are supported by [listing them](https://docs.tu
 
 ### Step 1 - Authenticate
 
-Authenticate with the tumelo system
+Authenticate with the Tumelo API
 
 ### Step 2 - List Model Portfolios
 

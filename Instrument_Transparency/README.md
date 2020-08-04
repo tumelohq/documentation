@@ -10,7 +10,7 @@ In order to get an organization breakdown on a specific composite instrument, yo
 
 ## Pre-requisites
 
-* Must have signed up with tumelo and obtained the credentials for your service user account (see [Getting Started](../Getting_Started/README.md) for further details)
+* Must have signed up with Tumelo and obtained the credentials for your service user account (see [Getting Started](../Getting_Started/README.md) for further details)
 * Your habitat must be subscribed to one or more composite instruments
 
 ## Definitions
@@ -25,7 +25,7 @@ When you set up access to Tumelo's API, you tell us which funds you would like t
 
 ### Step 1 - Authenticate
 
-Authenticate with the tumelo system
+Authenticate with the Tumelo system
 
 ### Step 2 - Listing subscribed instruments
 
