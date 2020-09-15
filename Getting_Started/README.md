@@ -35,17 +35,21 @@ We will provide you with the following information relating to your newly create
 * Authentication provider details
 * Your habitat will include a selection of common instruments suitable for your initial development activities. We will inform you when the list of instruments you requested are also available for use in your test habitat.
 
-### Step 2 - Changing Password
 
-The first time you access the API, the temporary password we have assigned must be changed for a strong password set by you. A detailed explanation of this one-time process can be found in the [Authentication](../Authentication/README.md) guide.
+### Step 2 - Access the API
+
+Use the credentials supplied by Tumelo with the `authorize` API endpoint to obtain an access token for subsequent requests.
+
+The API user credentials we supply provide access to all the data within your specific habitat. This API user should be thought of as a service account rather than representing a single end-user or a single developer. Each API user account has access to a single habitat, and all developers working for the same company use the same API user account to access the company's habitat.
+
+### Step 3 - Changing Password
+
+You should change the password so that the password we shared with you is no longer valid. You will need to use this new password to obtain future access tokens.
 
 Now you have set a strong password on your API user account you're ready to start making API requests!
 
-### Step 3 - Using the API
-
-Use the credentials supplied by Tumelo in conjunction with the strong password you set in Step 2 in order to obtain an authorisation token for subsequent requests.
-
-The API user credentials we supply provide access to all the data within your specific habitat. This API user should be thought of as a service account rather than representing a single end-user or a single developer. Each API user account has access to a single habitat, and all developers working for the same company use the same API user account to access the company's habitat.
+### Step 4 - Using the API
+Call whichever endpoints you need, just be sure to provide an unexpired token with each request.
 
 ## Sequence Diagram
 

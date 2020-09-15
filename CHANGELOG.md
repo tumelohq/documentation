@@ -2,6 +2,7 @@
 
 | Version | Date | Changes |
 |-|-|-|
+| 0.34 | 15 Sept 2020 | Added authenticate and changePassword endpoints |
 | 0.33 | 2 Sept 2020 | Added list ballots endpoint |
 | 0.32 | 24 July 2020 | Breaking: Removes the subscribed instruments endpoint replacing it with a new `/habitats/{habitatId}/instruments` endpoint. The new endpoint returns a list of instrument resources the habitat is subscribed to, rather than just the list of subscribed ISINs. |
 | 0.31 | 22 July 2020 | Reword compositions and breakdowns section. |
