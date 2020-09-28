@@ -4,14 +4,41 @@
 
 All requests to the Tumelo API must be authenticated using an access token. You can use the `authenticate` API endpoint to obtain an access token using the credentials issued to your company by Tumelo. You then use the token in each subsequent request to the Tumelo API.
 
-##
-TODO curl code on how to do this to get a token and en example on how to use it
+
+#### cURL
+
+Getting an ID token.
+
+```shell
+ID_TOKEN=$(curl --location -s --request POST 'https://api.prod.tumelo.com/v1/authenticate' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--data-raw '{
+        "habitatId": "{HABITAT_ID}",
+        "username": "{USERNAME}",
+        "password": "{PASSWORD}"
+}' | jq -r '.token')
+```
 
 ## Changing your temporary password
 
 You will have been issued with a client ID, a username and a temporary password to gain access to the Tumelo API. The temporary password should be changed before using the API in production. Passwords must be 8 characters or more and contain a mixture of upper and lower case letters and digits. You may use non-alphanumeric characters as well, but these are not required.
 
 Once you have changed the password, you should use the new password you have just set for all subsequent `authorize` requests.
+
+## Code example
+
+#### cURL
+
+```shell
+curl --location -s --request POST 'https://api.prod.tumelo.com/v1/changePassword' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer '$ID_TOKEN \
+--data-raw '{
+        "newPassword": "{NEW_PASSWORD}"
+}'
+```
 
 # Authenticating directly with AWS Cognito
 

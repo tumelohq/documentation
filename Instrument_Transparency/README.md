@@ -53,24 +53,17 @@ In the following example, we assume you have completed the steps in the [Getting
 
 #### cURL
 
-Getting the ID token (step 1). This is normally done automatically through a suitable Cognito client library.
+Getting the ID token (step 1).
 
 ```shell
-cat <<EOF > tumelo-api-auth.json
-{
- "AuthParameters" : {
-   "USERNAME" : "{YOUR_USERNAME}",
-   "PASSWORD" : "{YOUR_PASSWORD}"
- },
- "AuthFlow" : "USER_PASSWORD_AUTH",
- "ClientId" : "{CLIENT_ID}"
-}
-EOF
-
-ID_TOKEN=$(curl -X POST --data @tumelo-api-auth.json -s \
-	-H "X-Amz-Target: AWSCognitoIdentityProviderService.InitiateAuth" \
-	-H "Content-Type: application/x-amz-json-1.1" \
-	https://cognito-idp.eu-west-2.amazonaws.com/ | jq -r ".AuthenticationResult.IdToken")
+ID_TOKEN=$(curl --location -s --request POST 'https://api.prod.tumelo.com/v1/authenticate' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--data-raw '{
+        "habitatId": "{HABITAT_ID}",
+        "username": "{USERNAME}",
+        "password": "{PASSWORD}"
+}' | jq -r '.token')
 ```
 
 Listing your subscribed instruments (step 2).
