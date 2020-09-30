@@ -10,6 +10,19 @@ All requests to the Tumelo API must be authenticated using an access token. You 
 Getting an ID token.
 
 ```shell
+curl --location -s --request POST 'https://api.prod.tumelo.com/v1/authenticate' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--data-raw '{
+        "habitatId": "{HABITAT_ID}",
+        "username": "{USERNAME}",
+        "password": "{PASSWORD}"
+}' 
+```
+
+A one liner to assign the token to an environment variable `ID_TOKEN`.
+
+```shell
 ID_TOKEN=$(curl --location -s --request POST 'https://api.prod.tumelo.com/v1/authenticate' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
