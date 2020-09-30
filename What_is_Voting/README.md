@@ -1,8 +1,6 @@
 # What is Shareholder Voting
 
-Tumelo's mission is to enable retail investors and pension members to create and benefit from a more sustainable investment system.
-
-We start by giving investors and pension members [transparency](../What_is_Transparency/README.md) over their investments, allowing them to see and learn about the companies they are invested in. Empowered with this knowledge, our shareholder voting system then gives investors and pension members a voice on issues they care about at those companies, such as gender equality, human rights or climate change.
+Our shareholder voting system gives investors and pension members a voice on issues they care about at the companies they are invested in either directly, or indirectly through intermediary funds, such as gender equality, human rights or climate change. 
 
 ## How it works
 At least once a year every publicly listed company (e.g. Facebook, Google, Tesla) must hold an Annual General Meeting where questions related to corporate policy are asked for shareholders to vote on.
@@ -35,7 +33,6 @@ Tumelo's API allows third-party developers to seamlessly integrate investment tr
 In order for an end-user investor to successfully vote we need:
 
 * The ISINs of the instruments they hold
-* The number of units they hold in each instrument
 * The percentage weighting of each instrument by value relative to the overall account value
 
 With this information the Tumelo transparency system is able to determine the full list of companies the user is invested in, either directly or indirectly through intermediate funds. For further details of how to use the Tumelo API to provide the data required to enable voting for an individual investor, please see the [Investor Account Transparency](../Investor_Account_Transparency/README.md) section.
