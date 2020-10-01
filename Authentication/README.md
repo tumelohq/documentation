@@ -55,7 +55,7 @@ curl --location -s --request POST 'https://api.prod.tumelo.com/v1/changePassword
 
 # Authenticating directly with AWS Cognito
 
-For more advanced use cases you may with to authenticate directly with AWS Cognito.
+For more advanced use cases you may wish to authenticate directly with AWS Cognito.
 
 Cognito has extensive developer documentation and [resources](https://aws.amazon.com/cognito/dev-resources/) for integrating your  application, including support for Java, PHP, Ruby, .NET, Node.js, Go, iOS, Android, and React Native clients.
 
