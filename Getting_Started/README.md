@@ -25,7 +25,7 @@ Request access to the Tumelo platform by emailing [support@tumelo.com](mailto:su
 * Your company name
 * A technical contact email address
 * A technical contact phone number
-* A list of the instruments that make up the top-level holdings of your end-user investors, identified by their ISIN. This is your list of **subscribed instruments**. You only need to include top-level instruments. You do not need to include instruments held by the top-level intruments. That's where Tumelo helps out. You just give us the starting funds, and we do all the hard work of working out what's in them for you and your users.
+* A list of the instruments that make up the top-level holdings of your end-user investors, identified by their ISIN. This is your list of **subscribed instruments**. You only need to include top-level instruments. You do not need to include instruments held by the top-level instruments. That's where Tumelo helps out. You just give us the starting funds, and we do all the hard work of working out what's in them for you and your users.
 
 We will provide you with the following information relating to your newly created API user account:
 
