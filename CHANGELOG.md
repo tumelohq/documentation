@@ -2,6 +2,7 @@
 
 | Version | Date | Changes |
 |-|-|-|
+| 0.36 | 13 Oct 2020 | Added `validAt` time to the poll Tally |
 | 0.35 | 9 Oct 2020 | Added tally to poll entity |
 | 0.34 | 15 Sept 2020 | Added authenticate and changePassword endpoints |
 | 0.33 | 2 Sept 2020 | Added list ballots endpoint |
