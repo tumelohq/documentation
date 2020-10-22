@@ -2,6 +2,8 @@
 
 | Version | Date | Changes |
 |-|-|-|
+| 0.40 | 22 Oct 2020 | Breaking: Added pagination to listPolls endpoint |
+| 0.38 | 20 Oct 2020 | Breaking: Allowed listing all investors and added pagination to listInvestors endpoint | 
 | 0.35 | 9 Oct 2020 | Added tally to poll entity |
 | 0.34 | 15 Sept 2020 | Added authenticate and changePassword endpoints |
 | 0.33 | 2 Sept 2020 | Added list ballots endpoint |
