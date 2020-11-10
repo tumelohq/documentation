@@ -1,11 +1,11 @@
 # What is Shareholder Voting
 
-Our shareholder voting system gives investors and pension members a voice on issues they care about at the companies they are invested in either directly, or indirectly through intermediary funds, such as gender equality, human rights or climate change. 
+Our shareholder voting system gives investors and pension members a voice on issues they care about such as gender equality, human rights or climate change, at the companies they are invested in either directly, or indirectly through intermediary funds. 
 
 ## How it works
 At least once a year every publicly listed company (e.g. Facebook, Google, Tesla) must hold an Annual General Meeting where questions related to corporate policy are asked for shareholders to vote on.
 
-Shareholders can use their votes to persuade company management to take action on important issues like climate change and gender equality. This is one way for large asset owners and fund managers to influence key strategic decisions at the world’s biggest companies.
+Shareholders can use their votes to persuade company management to take action on important issues like climate change and gender equality. This is one way for large asset owners and fund managers to influence key strategic decisions at the world's biggest companies.
 
 Tumelo's platform helps these large asset owners and fund managers understand what individual retail investors and pension members think about these issues ahead of time. Tumelo aggregates user views on upcoming shareholder questions such as:
 
@@ -68,8 +68,8 @@ After an AGM has occurred and all the company's shareholders have cast their vot
 ## Further Factors Affecting Voting Eligibility
 As described above, any time a new poll relating to a given company becomes available on the Tumelo system, any investor holding that company (based on the then current investor holdings data in Tumelo) is considered to be eligible to have their voice heard on that question, and the investor is automatically issued a ballot for the new poll.
 
-Once a ballot is issued to an investor, they remain eligible to vote on the corresponding poll right up to the ballot's expiry time, regardless of how their holdings may change in the meantime. It does not matter if a subsequent update in their holdings information means that they no longer hold the relevant company. Having held the company at the time the poll became available is sufficient for the investor or pension member to have their voting preferences included in the investor preferences that are subsequently reported by Tumelo.
-
+Once a ballot is issued to an investor, they remain eligible to vote on the corresponding poll right up to the ballot's expiry time, regardless of how their holdings may change in the meantime. It does not matter if a subsequent update in their holdings information means that they no longer hold the relevant company. Having held the company at the time the poll became available is sufficient for the ballot to be issued and for investor or pension member to have their voting preferences included in the investor preferences that are subsequently reported by Tumelo. The simple rule is that once issued, a ballot will never be withdrawn from an investor. It remains available for them to submit their vote preference up until the ballot's expiry time, irrespective of subsequent changes in their holdings.
+ 
 On the other hand, should an investor *not* hold a company at the time a new poll for that company becomes available, they will not be issued a ballot at that time. However, if a subsequent update to the investor's holdings means that they *do* now hold the company in question, then they will also be issued with a ballot to vote, so long as the poll is still open at the time of the holdings update.
 
 In summary, so long as an investor has **any size of holding** in a company, at **any time** that a poll relating to that company is open, the investor will be eligible to vote, and will be issued with a ballot for the poll accordingly. For this reason it is important to keep investor holding information up to date with any significant changes.
