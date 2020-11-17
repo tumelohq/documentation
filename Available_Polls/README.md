@@ -57,7 +57,7 @@ In the response, the outcome of the voting at the AGM will be included in the pr
                     "websiteUrl": "http://www.dixonscarphone.com/"
                 },
                 "proposal": {
-                    "formattedDescription": "In accordance with the Act, (... additional content omitted ...)"
+                    "formattedDescription": "In accordance with the Act, (... additional content omitted ...)",
                     "id": "61003dce-b675-4a39-aced-1ae8cef71dd8",
                     "managementRecommendation": "for",
                     "outcome": {
@@ -92,6 +92,8 @@ In the response, the outcome of the voting at the AGM will be included in the pr
             },
             "title": "Do you approve of the CEO's pay at Dixons Carphone?"
         }
+    ]
+}
 ```
 
 **Note:** _the information contained in the example above is for illustration purposes only. It should not be relied on as being accurate and should not be used for any purpose other than understanding how this API functions._
