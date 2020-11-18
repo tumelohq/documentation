@@ -2,6 +2,7 @@
 
 | Version | Date | Changes |
 |-|-|-|
+| 0.46 | 18 Nov 2020 | Added filters to the listPolls in habitat endpoint. |
 | 0.45 | 4 Nov 2020 | Updated error cases for listBallots endpoint. |
 | 0.44 | 3 Nov 2020 | Added filters to listBallots endpoint. |
 | 0.41 | 22 Oct 2020 | Added pagination to listBallots endpoint. |
