@@ -2,6 +2,8 @@
 
 | Version | Date | Changes |
 |-|-|-|
+| 0.49 | 14 Jan 2021 | Added search organizations by ISINs feature. |
+| 0.48 | 13 Jan 2021 | Added Issued ISINs to organizations output. |
 | 0.46 | 18 Nov 2020 | Added filters to the listPolls in habitat endpoint. |
 | 0.45 | 4 Nov 2020 | Updated error cases for listBallots endpoint. |
 | 0.44 | 3 Nov 2020 | Added filters to listBallots endpoint. |

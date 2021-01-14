@@ -229,6 +229,7 @@ and the response will resemble the following:
                   "displayName": "Apple Inc",
                   "externalIdentifiers": ["LEI_HWUPKR0MPOU8FGXBT394"],
                   "id": "46959122-c217-4b82-bc36-845c8f7cb36a",
+                  "issuedIsin": ["US0378331005"],
                   "legalName": "Apple",
                   "logoUrl": "https://res.cloudinary.com/tumelo-dev/image/upload/w_128,h_128,c_fit/v1580298372/cuumzkdemx6zuys2bcxm.png",
                   "websiteUrl": "https://apple.com"
