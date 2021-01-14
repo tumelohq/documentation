@@ -14,7 +14,7 @@ This guide explains how to get access to the Tumelo Platform API and to how star
 * **Investor**: The end-user of a customer's website or mobile app who holds some kind of equity-based investment product. The investor will have access to Tumelo's platform transparency and/or other shareholder engagement features once the Tumelo API has been integrated with the customer's digital platform.
 * **Habitat**: A customer-specific slice of the Tumelo platform. This is where all the information that is private to a customer is managed, for example investor account details.
 * **Instrument**: Any tradable investment instrument such as a share, bond or fund that forms part of an investment portfolio. We refer to a fund or other tradable instrument that is itself made up of other instruments as a ***composite instrument***.
-* **Subscribed Instruments:** The instruments that a customer can perform transparency-related operations on, for example obtaining an organization breakdown.
+* **Subscribed Instruments**: The instruments that a customer can perform transparency-related operations on, for example obtaining an organization breakdown.
 
 ## Process Flow
 

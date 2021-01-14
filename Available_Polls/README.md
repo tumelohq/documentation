@@ -52,6 +52,9 @@ In the response, the outcome of the voting at the AGM will be included in the pr
                         "LEI_2138001E12GWLLDQQF16"
                     ],
                     "id": "ec504914-0a3a-4276-9d60-53e7616f8432",
+                    "issuedIsins": [
+                        "GB00B4Y7R145"
+                    ],
                     "legalName": "Dixons Carphone PLC",
                     "logoUrl": "https://res.cloudinary.com/tumelo/image/upload/w_128,h_128,c_fit/v1580303313/mzenfik6pb1u0glislrc.png",
                     "websiteUrl": "http://www.dixonscarphone.com/"

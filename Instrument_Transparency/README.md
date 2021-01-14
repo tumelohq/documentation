@@ -15,7 +15,7 @@ In order to get an organization breakdown on a specific composite instrument, yo
 
 ## Definitions
 
-* **Composite instrument**: A composite instrument will be invested into other instruments, such as shares, bonds or even other composite instruments. There are many types of composite instruments (mutual, OEIC, ETFs…) but all have this basic structure.
+* **Composite instrument**: A composite instrument will be invested into other instruments, such as shares, bonds or even other composite instruments. There are many types of composite instruments (mutual, OEIC, ETFs, etc…) but all have this basic structure.
 
 ### Subscribed instruments
 
@@ -121,6 +121,9 @@ curl --location --request \
                         "LEI_213800GNI3K45LQR8L28"
                     ],
                     "id": "9d6cc93b-a612-47b4-947c-5a998dd6292c",
+                    "issuedIsins": [
+                        "IM00B5VQMV65"
+                    ],
                     "legalName": "GVC Holdings PLC",
                     "websiteUrl": "http://www.gvc-plc.com/"
                 },
@@ -138,6 +141,9 @@ curl --location --request \
                         "LEI_213800DZ8PDXRQBBBM02"
                     ],
                     "id": "547c51f2-dd72-43d7-8585-928daccff854",
+                    "issuedIsins": [
+                        "GB00BKX5CN86"
+                    ],
                     "legalName": "Just Eat PLC",
                     "logoUrl": "https://res.cloudinary.com/tumelo-dev/image/upload/w_128,h_128,c_fit/v1580298377/px0rajkfri1szyedlg1v.png",
                     "websiteUrl": "https://www.justeatplc.com/"
