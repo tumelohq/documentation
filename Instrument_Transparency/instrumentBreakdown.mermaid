@@ -1,0 +1,18 @@
+sequenceDiagram
+    API User->>+Tumelo API: Acquire Access Token
+    Note over API User,Tumelo API: Post /v1/authenticate
+    Tumelo API-->>-API User: Access Token
+    API User->>+Tumelo API: List Subscribed Instruments
+    Note over API User,Tumelo API: Post /v1/habitats/{habitatId}/instruments
+    Tumelo API-->>-API User: List Of Subscribed Instruments
+    API User->>+Tumelo API: Request Instrument Breakdown
+    Note over API User,Tumelo API: Get /v1/habitats/{habitatId}/instruments/{isin}/instrumentBreakdown
+    Tumelo API-->>-API User: Instrument Breakdown
+
+{
+  "theme": "base",
+  "sequence": {
+      "mirrorActors": false,
+      "showSequenceNumbers": true
+  }
+}
