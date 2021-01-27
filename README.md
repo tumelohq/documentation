@@ -2,7 +2,7 @@
 
 Tumelo's mission is to enable retail investors and pension members to create and benefit from a more sustainable investment system. 
 
-We are a research, design and technology-focused team, driven by impact and based in Bristol.   
+We are a research, design and technology-focused team, driven by impact and based in Bristol.
 
 Tumelo partners with investment and pension providers, enabling them to provide their customers with transparency over the companies they own and a shareholder voice on issues they care about, such as gender equality, human rights or climate change. 
 
