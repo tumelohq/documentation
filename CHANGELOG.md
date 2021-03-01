@@ -2,6 +2,7 @@
 
 | Version | Date | Changes |
 |-|-|-|
+| 0.54 | 01 March 2021 | Added list and get general meetings. |
 | 0.49 | 14 Jan 2021 | Added search organizations by ISINs feature. |
 | 0.48 | 13 Jan 2021 | Added Issued ISINs to organizations output. |
 | 0.46 | 18 Nov 2020 | Added filters to the listPolls in habitat endpoint. |
