@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide explains how to obtain a set of general meetings from a set of instrument ISINs.
+This guide explains how to obtain a set of general meetings from a set of instrument ISINs. This may be used for example to show any upcoming general meetings related to a particular instrument. 
 
 ## Pre-requisites
 
