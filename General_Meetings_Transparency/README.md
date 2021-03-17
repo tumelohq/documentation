@@ -26,7 +26,7 @@ Authenticate with the Tumelo system
 
 List the organizations, queried by issued ISINs.
 
-| Tumelo API Documentation Link | [List organizations](https://docs.tumelo.com/#section/Organization-Identifiers) |
+| Tumelo API Documentation Link | [List organizations](https://docs.tumelo.com/#operation/listOrganizations) |
 |-------------------------------|---------------------------------------------------------------------------------|
 
 ### Step 3 - Listing general meetings for each organization
