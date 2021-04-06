@@ -1,4 +1,4 @@
-# General Meetings Transparency
+# Proposals Transparency
 
 ## Overview
 
