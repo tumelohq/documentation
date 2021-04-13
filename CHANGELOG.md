@@ -2,6 +2,7 @@
 
 | Version | Date | Changes |
 |-|-|-|
+| 0.59 | 13 Apr 2021 | Added NAICS to the organization object |
 | 0.54 | 01 March 2021 | Added list and get general meetings. |
 | 0.49 | 14 Jan 2021 | Added search organizations by ISINs feature. |
 | 0.48 | 13 Jan 2021 | Added Issued ISINs to organizations output. |
