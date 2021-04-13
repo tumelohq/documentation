@@ -16,7 +16,7 @@ Organizations represent public companies and other institutions such as governme
 
 ### Step 1 - Authenticate
 
-Authenticate with the Tumelo system
+Authenticate with the Tumelo system as detailed in [Authentication](../Authentication/README.md)
 
 ### Step 2 - Listing organizations
 
@@ -25,26 +25,9 @@ List the organizations, queried by issued ISINs.
 | Tumelo API Documentation Link | [List organizations](https://docs.tumelo.com/#operation/listOrganizations) |
 |-------------------------------|---------------------------------------------------------------------------------|
 
-## Code Example
+## Code Example: Finding an organization that corresponds to an ISIN
 
-In the following example, we assume you have completed the steps in the [Getting Started](../Getting_Started/README.md) guide to change your API User's temporary password. The example illustrates how to obtain an authentication from the Tumelo API, however in practice we recommend the use of one of the Cognito client libraries which make obtaining and refreshing tokens straightforward. For further details see the [Authentication](../Authentication/README.md) guide.
-
-#### cURL
-
-Getting the ID token (step 1).
-
-```shell
-ID_TOKEN=$(curl --location -s --request POST 'https://api.prod.tumelo.com/v1/authenticate' \
---header 'Content-Type: application/json' \
---header 'Accept: application/json' \
---data-raw '{
-        "habitatId": "{HABITAT_ID}",
-        "username": "{USERNAME}",
-        "password": "{PASSWORD}"
-}' | jq -r '.token')
-```
-
-Listing organizations (step 2).
+In the following example, we assume you have completed the steps in the [Getting Started](../Getting_Started/README.md) guide to change your API User's temporary password and are authenticated as detailed in [Authentication](../Authentication/README.md). The following request returns the organization that has issued a particular isin of interest `GB00BKX5CN86`. 
 
 ```shell
 curl --location --request \
@@ -52,7 +35,13 @@ curl --location --request \
     --header 'Authorization: Bearer '$ID_TOKEN
 ```
 
-## Example Response
+The response object may be used to outline details of the organization of interest for example with the following bits of information:
+
+* its name
+* a short bio about the company
+* its logo
+* a website url
+* an industry classification (based off the [NAICS standard](https://www.census.gov/naics/))
 
 ```json
 {
@@ -69,7 +58,13 @@ curl --location --request \
       "issuedIsins": ["GB00BKX5CN86"],
       "legalName":"Just Eat PLC",
       "logoUrl":"https://res.cloudinary.com/tumelo/image/upload/w_128,h_128,c_fit/v1580302983/thoakdonplifi9uogkdz.png",
-      "websiteUrl":"https://www.justeatplc.com/"
+      "websiteUrl":"https://www.justeatplc.com/",
+      "industry": {
+        "naics2017": {
+          "code": "44",
+          "title": "Retail Trade"
+        }
+      }
     }
   ]
 }
