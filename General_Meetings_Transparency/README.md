@@ -14,7 +14,7 @@ Organizations represent public companies and other institutions such as governme
 
 ### General Meetings
 
-General meetings are either an annual general meeting (AGM) or an extraordinary general meeting (EGM). An organization will have 0 or more general meetings that can be listed. The API allows filtering of general meetings by the meeting date. This allows you to only retrieve meetings that have not yet ocurred for example.
+General meetings are either an annual general meeting (AGM) or an extraordinary general meeting (EGM). An organization will have 0 or more general meetings that can be listed. The API allows filtering of general meetings by the meeting date. This allows you to only retrieve meetings that have not yet occurred for example.
 
 ## API Request Flow
 

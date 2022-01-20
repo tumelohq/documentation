@@ -10,6 +10,8 @@ Our solution is white-label software delivered via APIs and/or a user-facing pla
 
 You will find the documentation for our API here. 
 
+For information on how to access the platform and to authenticate with the API see our [Getting Started](./Getting_Started/README.md) guide.
+
 ## Transparency and Shareholder Voting
 
 We start by giving investors and pension members [transparency](./What_is_Transparency/README.md) over their investments, allowing them to see and learn about the companies they are invested in.
@@ -18,6 +20,12 @@ Our [shareholder voting](./What_is_Voting/README.md) system gives investors and 
 
 Some API users may not need to make use of our transparency API to display company information to their end users, however shareholder voting uses the underlying transparency information to determine which companies an investor holds and which issues they may express their voting preferences on.
 
-For information on how to access the platform and to authenticate with the API see our [Getting Started](./Getting_Started/README.md) guide.
+## Stewardship and Fund Manager Voting
+
+In practice over the last few decades, the number of individual shareholders has declined, while the number of shares held by institutional investors has increased. It is therefore increasingly relevant to understand how the fund managers who are making investment and voting decisions on behalf of their fund's investors are acting in the interests of their investors.
+
+Tumelo's [Stewardship API](./Stewardship/README.md) makes available the voting activity of the leading fund managers, providing insights into how they are stewarding their funds.
+
+## Feedback and Comments
 
 Please let us have any feedback about this documentation by contacting [support@tumelo.com](mailto:support@tumelo.com)
