@@ -14,7 +14,6 @@ curl --location -s --request POST 'https://api.prod.tumelo.com/v1/authenticate' 
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --data-raw '{
-        "habitatId": "{HABITAT_ID}",
         "username": "{USERNAME}",
         "password": "{PASSWORD}"
 }' 
@@ -27,7 +26,6 @@ ID_TOKEN=$(curl --location -s --request POST 'https://api.prod.tumelo.com/v1/aut
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --data-raw '{
-        "habitatId": "{HABITAT_ID}",
         "username": "{USERNAME}",
         "password": "{PASSWORD}"
 }' | jq -r '.token')

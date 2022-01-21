@@ -1,0 +1,24 @@
+sequenceDiagram
+    API User->>+Tumelo API: Acquire Access Token
+    Note over API User,Tumelo API: Post /v1/authenticate
+    Tumelo API-->>-API User: Access Token
+    API User->>+Tumelo API: List Subscribed Instruments
+    Note over API User,Tumelo API: Get /v1/habitats/{habitatId}/instruments
+    Tumelo API-->>-API User: List of Subscribed Instruments
+    API User->>+Tumelo API: List Fund Managers
+    Note over API User,Tumelo API: Get /v1/fundManagers
+    Tumelo API-->>-API User: List of Fund Managers
+    API User->>+Tumelo API: List Managed Instruments
+    Note over API User,Tumelo API: Get /v1/fundManagers/{fundManagerId}/managedInstruments
+    Tumelo API-->>-API User: List of Managed Instruments
+    API User->>+Tumelo API: Request Votes for Managed Instrument
+    Note over API User,Tumelo API: Get /v1/fundManagers/{fundManagerId}/managedInstruments/{isin}/votes
+    Tumelo API-->>-API User: Votes for Managed Instrument
+
+{
+  "theme": "base",
+  "sequence": {
+      "mirrorActors": false,
+      "showSequenceNumbers": false
+  }
+}
