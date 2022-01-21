@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide explains how to obtain the voting information for a given fund manager. Tumelo collects fund manager voting information, including those votes the fund manager has identified as [significant](#definitions) on a regular basis, direct from the fund managers. The frequency with which voting information is updated varies between fund managers, but most provide updates at least once every three months. Please contact your Tumelo account manager of you require further information.
+This guide explains how to obtain the voting information for a given fund manager. Tumelo collects fund manager voting information, including those votes the fund manager has identified as [significant](#definitions) on a regular basis, direct from the fund managers. The frequency with which voting information is updated varies between fund managers, but most provide updates at least once every three months. Please contact your Tumelo account manager if you require further information.
 
 ### Subscribed instruments
 
@@ -74,7 +74,6 @@ ID_TOKEN=$(curl --location -s --request POST 'https://api.prod.tumelo.com/v1/aut
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --data-raw '{
-        "habitatId": "{HABITAT_ID}",
         "username": "{USERNAME}",
         "password": "{PASSWORD}"
 }' | jq -r '.token')
